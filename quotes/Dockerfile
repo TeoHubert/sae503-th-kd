@@ -19,4 +19,4 @@ ENV OTEL_PYTHON_LOG_CORRELATION=true
 
 EXPOSE 5002
 
-CMD ["/deps/bin/opentelemetry-instrument", "python", "app.py"]
+CMD ["/usr/local/bin/opentelemetry-instrument", "python", "app.py"]
